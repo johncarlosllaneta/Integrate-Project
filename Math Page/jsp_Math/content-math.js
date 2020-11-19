@@ -254,7 +254,7 @@ function powerpoint(url) {
     framePane.setAttribute("src", url);
      container.appendChild(framePane);
 
-    el.appendChild(container);
+    els.appendChild(container);
 
 }
 
