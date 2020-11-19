@@ -23,12 +23,12 @@
 
 <body>
     <?php
-    echo $_SESSION['User'];
+    echo $_SESSION['id'];
         $servername = "localhost";
         $username = "root";
         $password = "";
         $dbname = "integratives";
-        $user_id = $_SESSION['User'];
+        $user_id = $_SESSION['id'];
 
         $conn = new mysqli($servername, $username, $password, $dbname); // Create connection
         if ($conn->connect_error) {     // Check connection
@@ -71,7 +71,11 @@
                     echo '<td>' .$row['Score']. '</td>';
                     echo '<td>' .$row['Passing_Score']. '</td>';
                     echo '<td>' .$row['No_Items']. '</td>';
-                    echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
+                    if($row['Status'] == "passed"){
+                        echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
+                    }else{
+                        echo "<td><span class='label label-success' style='background-color: #FF0000;'>" .$row['Status']. '</td>';
+                    }
             }
 
             $conn->close();

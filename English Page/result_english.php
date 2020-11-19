@@ -38,7 +38,9 @@
     ?>
 
 
-    <a href="../html/subject_result.php" class="button">BACK</a>
+<a href="../html/subject_result.php">
+            <button class="button">BACK</button>
+        </a>
 
     <div class="table-wrapper">
 
@@ -67,7 +69,11 @@
                     echo '<td>' .$row['id']. '</td>';
                     echo '<td>' .$row['Lesson_Name']. '</td>';
                     echo '<td>' .$row['totalScore']. '</td>';
-                    echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
+                    if($row['Status'] == "passed"){
+                        echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
+                    }else{
+                        echo "<td><span class='label label-success' style='background-color: #FF0000;'>" .$row['Status']. '</td>';
+                    }
             }
 
             $conn->close();

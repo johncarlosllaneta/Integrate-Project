@@ -176,8 +176,6 @@ function quizResult() {
 }
 
 function saveToDb() {
-    //get 80% of the total number of questions
-
     $.post("../Math Page/php/connect-to-db.php", {
         lesson_name: lesson_name,
         score: correctAnswers,

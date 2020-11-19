@@ -71,7 +71,11 @@
                     echo '<td>' .$row['Score']. '</td>';
                     echo '<td>' .$row['Passing_Score']. '</td>';
                     echo '<td>' .$row['No_Items']. '</td>';
-                    echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
+                    if($row['Status'] == "passed"){
+                        echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
+                    }else{
+                        echo "<td><span class='label label-success' style='background-color: #FF0000;'>" .$row['Status']. '</td>';
+                    }
             }
 
             $conn->close();
