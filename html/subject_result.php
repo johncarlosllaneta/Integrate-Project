@@ -54,7 +54,7 @@
           </div>
         </a>
         <!-- FILIPINO -->
-        <a href="../Filipino Page/result_filipino.html">
+        <a href="../Filipino Page/result_filipino.php">
           <div class="column hvr-grow" style="width: 308px">
             <img
               src="../images/FilipinoAsset.png"
@@ -99,7 +99,7 @@
           </div>
         </a>
         <!-- MATHEMATICS -->
-        <a href="../Math Page/result_math.html">
+        <a href="../Math Page/result_math.php">
           <div class="column hvr-grow" style="width: 308px">
             <img
               src="../images/MathematicAsset.png"

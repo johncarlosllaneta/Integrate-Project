@@ -78,7 +78,7 @@ a:hover {
     margin-left: 45%;
 }
 
-.navbar-back {
+.navbar-back_fil{
     font-family: 'Segoe UI,', sans-serif;
     color: white;
     margin: auto;
@@ -94,6 +94,76 @@ a:hover {
     border-radius: 34px;
     border-style: solid;
 }
+.navbar-back_fil:hover{
+    background-color:  #774e25;
+    -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+}
+.navbar-back_sci{
+    font-family: 'Segoe UI,', sans-serif;
+    color: white;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 34px;
+    border-style: solid;
+}
+.navbar-back_sci:hover{
+    background-color:  #450764;
+    -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+}
+.navbar-back_math{
+    font-family: 'Segoe UI,', sans-serif;
+    color: white;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;    
+    cursor: pointer;
+    border-radius: 34px;
+    border-style: solid;
+}
+.navbar-back_math:hover{
+    background-color:   #103506;
+    -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+}
+
+.navbar-back-eng {
+    font-family: 'Segoe UI,', sans-serif;
+    color: white;
+    margin: auto;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border: none;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    border-radius: 34px;
+    border-style: solid;
+}
+.navbar-back-eng:hover{
+    background-color: #0e798b;
+    -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+  box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+    
+  }
 
 .right {
     text-align: right;
@@ -167,6 +237,7 @@ button{
     /* margin-left: 100%;
     margin-top: -30px; */
 }
+
 button {
     padding: 10px 30px;
     text-align: left;

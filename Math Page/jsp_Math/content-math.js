@@ -247,7 +247,7 @@ function createAssessmentBtn() {
     button.appendChild(text);
     button.onclick = hi;
     // appending button to div 
-    myDiv.appendChild(button);;
+    myDiv.appendChild(button);
 }
 
 

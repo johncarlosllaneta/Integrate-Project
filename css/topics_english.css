@@ -31,8 +31,15 @@ margin-top: -30px;
   z-index: 1;
 
 }
+
+.btn_back:hover{
+  background-color: #0e798b;
+  -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+  
+}
 .container{
-    height: 1598px;
+    height: 1590px;
     width: 100%;
     background-image: url("../images/Ice\ Background.svg");
     background-repeat: no-repeat;
