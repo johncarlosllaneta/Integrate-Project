@@ -217,7 +217,7 @@ const unit3 = [
     q: "Produces the seeds.",
     options: [
       '<img src="../Science Page/img/unit3/stem.PNG" alt="stem-pic" width="30%"></img> Stem',
-      '<img src="../Science Page/img/unit3/fruits.PNG" alt="fruits-pic" width="30%"></img> Fruits',
+      '<img src="../Science Page/img/unit3/fruit.PNG" alt="fruits-pic" width="30%"></img> Fruits',
       '<img src="../Science Page/img/unit3/root.PNG" alt="root-pic" width="30%"></img> Root',
     ],
     answer: 1,
