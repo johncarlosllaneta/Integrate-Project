@@ -26,10 +26,33 @@ if ($conn->query($sql) === TRUE) {
     echo "Error: " . $sql . "<br>" . $conn->error;
 }
 
-if($status == "passed") {
-    $update = "UPDATE progress SET done = done + 1 WHERE user_id = '$user_id' and subject = 'SCIENCE'";
-    $conn->query($update) or die("Error");
-}
+$resultsSQL = "SELECT * FROM science_table WHERE Lesson_Name = '$lesson_name'";
+
+$result = $conn->query($resultsSQL) or die ($conn->query);
+
+$row = $result->fetch_assoc();
+
+$result_status = $row["status"];
+
+
+
+if($result->num_rows > 1) {​​
+
+    if($result_status != "passed") {​​
+
+        // do nothing
+
+        if($status == "passed") {​​
+
+            $update = "UPDATE progress SET done = done + 1 WHERE user_id = '$user_id' and subject = 'SCIENCE'";
+
+            $conn->query($update) or die("Error");
+
+        }​​
+
+    }​​ 
+
+}​​ 
 
 $conn->close();
 ?>
