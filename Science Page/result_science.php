@@ -57,7 +57,7 @@
                     <th>Lesson</th>
                     <th>Scores</th>
                     <th>Passing Score</th>
-                    <th>No_Items</th>
+                    <th>No. Items</th>
                     <th>Status</th>
                 </tr>
             </thead>
