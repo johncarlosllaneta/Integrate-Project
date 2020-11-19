@@ -160,26 +160,22 @@ function quizResult() {
     resultBox.querySelector(".percentage").innerHTML = percentage.toFixed(2) + "%";
     document.getElementById("scoreToDB").setAttribute("value", correctAnswers);
     resultBox.querySelector(".total-score").innerHTML = correctAnswers;
-    
+
     passingScore = Math.round(quiz.length * 80 * 0.01);
     status = getScoreStatus();
-  
+
     if (status == "passed") {
-      saveToDb();
-      alert("PASSED! Score successfully recorded!");
+        saveToDb();
+        swal("PASSED!", "Score successfully recorded!", "success");
     } else {
-      saveToDb();
-      if (!alert("FAILED! Recorded pa rin")) {
-        window.location.reload();
-      }
+        saveToDb();
+        if (!swal("FAILED!", "Score successfully recorded!", "error")) {
+            window.location.reload();
+        }
     }
 }
 
 function saveToDb() {
-    // //get 80% of the total number of questions
-    // var passingScore = Math.round(quiz.length * 80 * 0.01);
-    // var status = getScoreStatus(passingScore);
-
     $.post("../Math Page/php/connect-to-db.php", {
         lesson_name: lesson_name,
         score: correctAnswers,
@@ -196,6 +192,8 @@ function getScoreStatus() {
     }
     return "failed";
 }
+
+
 
 function start() {
     if (sessionStorage.getItem("ID") == 1) {
