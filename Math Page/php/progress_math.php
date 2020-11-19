@@ -31,13 +31,15 @@ $percentage = ($done / $total) * 100;
 
 <body>
 
-    <h1>Progress: <?= $done ?> / <?= $total ?> </h1>
-    <h3>Percentage: <?= $percentage ?> % </h3>
+   
 
     <div class="container">
+    <br>
     <a href="../../html/subject_progress.html">
             <button class="btn_back">BACK</button>
         </a>
+        <h1>Progress: <?= $done ?> / <?= $total ?> </h1>
+    <h3>Percentage: <?= $percentage ?> % </h3>
 
     <?php for($i = 1; $i <= $total; $i++) { ?>
 
