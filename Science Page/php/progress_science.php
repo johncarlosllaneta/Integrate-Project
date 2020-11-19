@@ -27,7 +27,7 @@ $percentage = ($done / $total) * 100;
     <title>Progress English</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../css/progress_science.css">
-</head>+
+</head>
 
 
 <body>
@@ -36,7 +36,7 @@ $percentage = ($done / $total) * 100;
     <h3>Percentage: <?= $percentage ?> % </h3>
 
     <div class="container">
-    <a href="../../html/subject_progress.html">
+        <a href="../../html/subject_progress.html">
             <button class="btn_back">BACK</button>
         </a>
 
