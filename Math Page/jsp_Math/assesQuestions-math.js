@@ -57,13 +57,17 @@ const math1 = [{
 
 // Addition
 const math2 = [{
-  q: '<center><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="100"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="100">  <b>+</b> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="100"> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="100"> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="100">' ,
-    options:['<center><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple">', '<center> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple">','<center> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><br><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple"> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple">'],
+  q: '<center><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="70"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="70">  <b>+</b> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="70"> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="70"> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" width="70" height="70">' ,
+    options:['<center><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70"> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70">', 
+             '<center> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70">',
+            '<center> <img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70"><img src="../Math Page/img-math/addition/pineapple.png" alt="one pineapple" height="70">'],
     answer:1
 },
 {
-    q: '<img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"> <br> <b>+</b> <br> <img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish">',
-    options:['<img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish">', '<img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish">', '<img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish">'],
+    q: '<img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"> <b>+</b> <img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish">',
+    options:['<img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish">', 
+    '<img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish">', 
+    '<img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish"><img src="../Math Page/img-math/addition/fish.png" alt="one fish">'],
     answer:1
 },
 {
@@ -129,7 +133,7 @@ const math3 = [{
     answer:1
 },
 {
-    q: 'Base on the image that has been shown, what is the correct answer? <br> <img src="../Math Page/img-math/subtraction/number5.jpg" alt="question 5" width="400"> ',
+    q: 'Base on the image that has been shown, what is the correct answer? <br> <img src="../Math Page/img-math/subtraction/number5.jpg" alt="question 5" width="400" height="100"> ',
     options:['7','8','4','5'],
     answer:2
 },
@@ -166,9 +170,9 @@ const math4 = [{
     answer:2
 },
 {
-    q: 'Which of the fofollowing is NOT divided into equal parts? ',
-    options:['<center><img src="../Math Page/img-math/fraction/2.1.png" alt="fraction" height="80">', '<center><img src="../Math Page/img-math/fraction/2.2.png" alt="fraction" height="80>', '<center><img src="../Math Page/img-math/fraction/2.3.png" alt="fraction" height="80">', '<center><img src="../Math Page/img-math/fraction/2.4.png" alt="fraction" height="80">',],
-    answer:3
+    q: 'Which of the following is divided into equal parts? ',
+    options:['<center><img src="../Math Page/img-math/fraction/2.1.png" alt="fraction" height="70">','<center><img src="../Math Page/img-math/fraction/2.3.png" alt="fraction" height="70">', '<center><img src="../Math Page/img-math/fraction/2.4.png" alt="fraction" height="70">',],
+    answer:0
 },
 {
     q: 'What is the fraction corresponded to the figure below? <br> <img src="../Math Page/img-math/fraction/3.png" alt="fraction" height="80"> ',
@@ -177,12 +181,12 @@ const math4 = [{
 },
 {
     q: 'Which of the following is the figure that corresponds to ¾?',
-    options:['<img src="../Math Page/img-math/fraction/4.1.png" alt="fraction" height="80">', '<img src="../Math Page/img-math/fraction/4.2.png" alt="fraction">', '<img src="../Math Page/img-math/fraction/4.3.png" alt="fraction">', '<img src="../Math Page/img-math/fraction/4.4.png" alt="fraction">',],
+    options:['<img src="../Math Page/img-math/fraction/4.1.png" alt="fraction" height="50">', '<img src="../Math Page/img-math/fraction/4.2.png" alt="fraction" height="50">', '<img src="../Math Page/img-math/fraction/4.3.png" alt="fraction" height="50">', '<img src="../Math Page/img-math/fraction/4.4.png" alt="fraction" height="50">',],
     answer:2
 },
 {
     q: 'Which of the following is corresponded to 6/8? ',
-    options:['<center><img src="../Math Page/img-math/fraction/5.1.png" alt="fraction" height="50">', '<center><img src="../Math Page/img-math/fraction/5.2.png" alt="fraction" height="50">', '<center><img src="../Math Page/img-math/fraction/5.3.png" alt="fraction" height="50">'],
+    options:['<center><img src="../Math Page/img-math/fraction/5.1.png" alt="fraction" height="70">', '<center><img src="../Math Page/img-math/fraction/5.2.png" alt="fraction" height="70">', '<center><img src="../Math Page/img-math/fraction/5.3.png" alt="fraction" height="70">'],
     answer:1
 },
 {
@@ -213,27 +217,27 @@ const math4 = [{
 
 // Money
 const math5 = [{
-q: 'Identify the amount of Money <br> <img src="../Math Page/img-math/money/20.png" alt="20 pesos">',
+q: 'Identify the amount of Money <br> <img src="../Math Page/img-math/money/20.png" alt="20 pesos" width="400">',
     options:['20 pesos','200 pesos','1000 pesos','25 centavos'],
     answer:0
 },
 {
-    q: 'What is the amount of the picture below? <br> <img src="../Math Page/img-math/money/10.png" alt="10 pesos">',
+    q: 'What is the amount of the picture below? <br> <img src="../Math Page/img-math/money/10.png" alt="10 pesos" height="100">',
     options:['10 pesos','500 pesos','5 pesos','1 peso'],
     answer:0
 },
 {
     q: 'How much money is in the image? <br> <img src="../Math Page/img-math/money/1cent.png" alt="1cent">',
-    options:['20 pesos','100 pesos','1000 pesos','25 centavos'],
+    options:['20 pesos','100 pesos','1000 pesos','1 centavo'],
     answer:3
 },
 {
-    q: 'What currency is this? This is the currency of Japan. <br> <img src="../Math Page/img-math/money/yen.png" alt="yen">',
+    q: 'What currency is this? This is the currency of Japan. <br> <img src="../Math Page/img-math/money/yen.png" alt="yen" width="400" height="110">',
     options:['Pesos','Dollars', 'Yen', 'Euro'],
     answer:2
 },
 {
-    q: 'How much money is in the image? <br> <img src="../Math Page/img-math/money/100.png" alt="100 pesos"> ',
+    q: 'How much money is in the image? <br> <img src="../Math Page/img-math/money/100.png" alt="100 pesos" width="400"> ',
     options:['1000 pesos','1 centavo','5 centavos','100 pesos'],
     answer:3
 },
@@ -243,8 +247,8 @@ q: 'Identify the amount of Money <br> <img src="../Math Page/img-math/money/20.p
     answer:1
 },
 {
-    q: 'Give money to complete the amount(516.30)',
-    options:['One 500, One 5, Three 1, One 25 centavo','B.Three 100, One 5, Three 1, One 25 centavo','One 500, Three 5, One 1, Three 10 centavos', 'One 500'],
+    q: 'Give money to complete the amount(516.25)',
+    options:['One 500, One 5, Three 1, One 25 centavo','Three 100, One 5, Three 1, One 25 centavo','One 500, Three 5, One 1, Three 25 centavos', 'One 500'],
     answer:2
 },
 {
@@ -271,125 +275,143 @@ q: 'Form of an object or its external boundary, outline, or external surface.',
 },
 {
     q: 'What is an example of Circle?',
-    options:['<img src="../Math Page/img-math/shapes/ball.png" alt="ball"></img>', '<img src="../Math Page/img-math/shapes/watermelon.png" alt="watermelon"></img>', '<img src="../Math Page/img-math/shapes/window.png" alt="window"></img>', '<img src="../Math Page/img-math/shapes/glass.png" alt="glass"></img>' ],
+    options:['<img src="../Math Page/img-math/shapes/ball.png" alt="ball" height="50"></img>', 
+    '<img src="../Math Page/img-math/shapes/watermelon.png" alt="watermelon" height="50"></img>', 
+    '<img src="../Math Page/img-math/shapes/window.png" alt="window" height="50"></img>', 
+    '<img src="../Math Page/img-math/shapes/glass.png" alt="glass" height="50"></img>' ],
     answer:0
 },
 {
     q: 'What is an example of Square?',
-    options:['<img src="../Math Page/img-math/shapes/warning.png" alt="warning"></img>', '<img src="../Math Page/img-math/shapes/seeds.png" alt="seeds"></img>', '<img src="../Math Page/img-math/shapes/glass.png" alt="glass"></img>', '<img src="../Math Page/img-math/shapes/board.png" alt="board"></img>' ],
+    options:['<img src="../Math Page/img-math/shapes/warning.png" alt="warning" height="50"></img>', 
+    '<img src="../Math Page/img-math/shapes/seeds.png" alt="seeds" height="50"></img>', 
+    '<img src="../Math Page/img-math/shapes/glass.png" alt="glass" height="50"></img>', 
+    '<img src="../Math Page/img-math/shapes/board.png" alt="board" height="50"></img>' ],
     answer:2
 },
 {
     q: 'What is an example of Triangle?',
-    options:['<img src="../Math Page/img-math/shapes/square.png" alt="square"></img>', '<img src="../Math Page/img-math/shapes/pizza.png" alt="pizza"></img>', '<img src="../Math Page/img-math/shapes/wheel.png" alt="wheel"></img>', '<img src="../Math Page/img-math/shapes/window.png" alt="window"></img>' ],
+    options:['<img src="../Math Page/img-math/shapes/square.png" alt="square" height="50"></img>', 
+    '<img src="../Math Page/img-math/shapes/pizza.png" alt="pizza" height="50"></img>',
+     '<img src="../Math Page/img-math/shapes/wheel.png" alt="wheel" height="50"></img>', 
+     '<img src="../Math Page/img-math/shapes/window.png" alt="window" height="50"></img>' ],
     answer:1
 },
 {
     q: 'What is an example of Rectangle?',
-    options:['<img src="../Math Page/img-math/shapes/seeds.png" alt="seed"></img>', '<img src="../Math Page/img-math/shapes/glass.png" alt="glass"></img>', '<img src="../Math Page/img-math/shapes/board.png" alt="board"></img>', '<img src="../Math Page/img-math/shapes/cone.png" alt="cone"></img>' ],
+    options:['<img src="../Math Page/img-math/shapes/seeds.png" alt="seed" height="50"></img>',
+     '<img src="../Math Page/img-math/shapes/glass.png" alt="glass" height="50"></img>',
+      '<img src="../Math Page/img-math/shapes/board.png" alt="board" height="50"></img>', 
+      '<img src="../Math Page/img-math/shapes/cone.png" alt="cone" height="50"></img>' ],
     answer:2
 },
 {
-    q: 'Look at the picture, what shape is the Tree? <br> <img src="../Math Page/img-math/shapes/house.png" alt="house"></img>',
+    q: 'Look at the picture, what shape is the Tree? <br><center> <img src="../Math Page/img-math/shapes/house.png" alt="house" width="300" height="140"></img>',
     options:['Trees are Circle','Trees are Triangle','Trees are Square','It has no shape'],
     answer:1
 },
 {
-    q: 'Look at the picture, what shape is the road? <br> <img src="../Math Page/img-math/shapes/house.png" alt="house"></img>',
+    q: 'Look at the picture, what shape is the road? <br> <center><img src="../Math Page/img-math/shapes/house.png" alt="house" width="300" height="140"></img>',
    options:['The road is Circle','The road is Triangle','The road is Square','The road is Rectangle'],
     answer:3
 },
 {
-    q: ': Look at the picture, what shape is the windows? <br> <img src="../Math Page/img-math/shapes/house.png" alt="house"></img>',
+    q: ': Look at the picture, what shape is the windows? <br> <center><img src="../Math Page/img-math/shapes/house.png" alt="house" width="300" height="140"></img>',
    options:['The windows are Circle','The windows are Square','The windows are Triangle','The windows are Rectangle'],
     answer:1
 },
 {
     q: 'Which of the following DOES NOT belong to the group?',
-    options:['<img src="../Math Page/img-math/shapes/shape1.png" alt="shape"></img>', '<img src="../Math Page/img-math/shapes/shape2.png" alt="shape"></img>', '<img src="../Math Page/img-math/shapes/shape3.png" alt="shape"></img>', '<img src="../Math Page/img-math/shapes/shape4.png" alt="shape"></img>' ],
+    options:['<img src="../Math Page/img-math/shapes/shape1.png" alt="shape" height="50"></img>',
+     '<img src="../Math Page/img-math/shapes/shape2.png" alt="shape" height="50"></img>',
+      '<img src="../Math Page/img-math/shapes/shape3.png" alt="shape" height="50"></img>',
+       '<img src="../Math Page/img-math/shapes/shape4.png" alt="shape" height="50"></img>' ],
     answer:2
 },
 {
     q: 'Which of the following DOES NOT belong to the group?',
-    options:['<img src="../Math Page/img-math/shapes/shape5.png" alt="shape"></img>', '<img src="../Math Page/img-math/shapes/shape6.png" alt="shape"></img>', '<img src="../Math Page/img-math/shapes/shape7.png" alt="shape"></img>', '<img src="../Math Page/img-math/shapes/shape8.png" alt="shape"></img>' ],
+    options:['<img src="../Math Page/img-math/shapes/shape5.png" alt="shape" height="50"></img>',
+     '<img src="../Math Page/img-math/shapes/shape6.png" alt="shape" height="50"></img>',
+      '<img src="../Math Page/img-math/shapes/shape7.png" alt="shape" height="50"></img>', 
+      '<img src="../Math Page/img-math/shapes/shape8.png" alt="shape" height="50"></img>' ],
     answer:3
 }];
 
 // Time
 const math7 = [{
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_1.jpg" alt="time"></img>',
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_1.jpg" alt="time" height="140"></img>',
     options: ['7:35','2:30','5:35','3:35'],
     answer: 3  
 },
 {
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_2.jpg" alt="time"></img>',
-    options: ['5:45','5:35','5:15','5:50'],
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_2.jpg" alt="time" height="140"></img>',
+    options: ['4:45','4:35','4:15','4:50'],
     answer: 0  
 },
 {
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_3.jpg" alt="time"></img>',
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_3.jpg" alt="time" height="140"></img>',
     options: ['11:25','11:55','11:15','11:30'],
     answer: 3 
 },
 {
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_4.jpg" alt="time"></img>',
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_4.jpg" alt="time" height="140"></img>',
     options: ['5:25','1:20','1:15','1:25'],
     answer: 3  
 },
 {
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_5.jpg" alt="time"></img>',
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_5.jpg" alt="time" height="140"></img>',
     options: ['9:00','9:30','9:50','9:10'],
     answer: 3 
 },
 {
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_6.jpg" alt="time"></img>',
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_6.jpg" alt="time" height="140"></img>',
     options: ['7:50','1:50','2:50','8:50'],
     answer: 3  
 },
 {
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_7.jpg" alt="time"></img>',
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_7.jpg" alt="time" height="140"></img>',
     options: ['7:00','7:25','7:30','7:15'],
     answer: 1  
 },
 {
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_8.jpg" alt="time"></img>',
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_8.jpg" alt="time" height="140"></img>',
     options: ['12:00','12:45','12:15','12:40'],
     answer: 2 
 },
 {
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_9.jpg" alt="time"></img>',
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_9.jpg" alt="time" height="140"></img>',
     options: ['11:40','12:40','10:40','5:40'],
     answer: 2
 },
 {
-    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_10.jpg" alt="time"></img>',
+    q: 'What time is shown in the image? <br> <img src="../Math Page/img-math/time/time_10.jpg" alt="time" height="140"></img>',
     options: ['3:45','6:45','1:45','2:45'],
     answer: 1 
 }];
 
 // Measurement
 const math8 = [{
-    q: 'What is lighter? <br> <img src="../Math Page/img-math/measurement/1.png" alt="measure"></img>',
+    q: 'What is lighter? <br> <img src="../Math Page/img-math/measurement/1.png" alt="measure" width="370" height="140"></img>',
     options: ['Fruits','Junkfoods','Both','None of them'],
     answer: 1
 },
 {
-    q: 'Who is the heaviest Monkey? <br> <img src="../Math Page/img-math/measurement/2.png" alt="measure"></img>',
+    q: 'Who is the heaviest Monkey? <br> <img src="../Math Page/img-math/measurement/2.png" alt="measure" width="370" height="140"></img>',
     options: ['The monkey with Banana','Both Monkeys','The monkey with many banana','None of them'],
     answer: 2
 },
 {
-    q: 'What is lighter? <br> <img src="../Math Page/img-math/measurement/3.png" alt="measure"></img>',
+    q: 'Who is lighter? <br> <img src="../Math Page/img-math/measurement/3.png" alt="measure" width="370" height="140"></img>',
     options: ['The boy carrying with bag','Both the boy and the girl','The girl carrying a box','None of them'],
     answer: 2
 },
 {
-    q: 'What is the heavier? <br> <img src="../Math Page/img-math/measurement/4.png" alt="measure"></img>',
+    q: 'Who is the heavier? <br> <img src="../Math Page/img-math/measurement/4.png" alt="measure" width="400" height="140"></img>',
     options: ['Elephant','Lion cub','Both of them','None of them'],
     answer: 0
 },
 {
-    q: 'What is lighter? <br> <img src="../Math Page/img-math/measurement/5.png" alt="measure"></img>',
+    q: 'What is lighter? <br> <img src="../Math Page/img-math/measurement/5.png" alt="measure" width="400" height="140"></img>',
     options: ['The girl with one ball','The girl with two ball','Both','None of them'],
     answer: 0
 },
@@ -404,17 +426,17 @@ const math8 = [{
     answer: 0
 },
 {
-    q: 'Which have the most capacity? <br> <img src="../Math Page/img-math/measurement/8.png" alt="measure"></img>',
+    q: 'Which have the most capacity? <br> <img src="../Math Page/img-math/measurement/8.png" alt="measure" height="140"></img>',
     options: ['The glass','The bottle','Both','None of them'],
     answer: 1
 },
 {
-    q: 'Which have the less capacity? <br> <img src="../Math Page/img-math/measurement/9.png" alt="measure"></img>',
+    q: 'Which have the less capacity? <br> <img src="../Math Page/img-math/measurement/9.png" alt="measure" height="140"></img>',
     options: ['The glass','The bottle','Both','None of them'],
     answer: 0
 },
 {
-    q: 'Who is lighter? <br> <img src="../Math Page/img-math/measurement/10.png" alt="measure"></img>',
+    q: 'Who is lighter? <br> <img src="../Math Page/img-math/measurement/10.png" alt="measure" height="140"></img>',
     options: ['The man on the right','The man on the left','Both','None of them'],
     answer: 0
 }];

@@ -15,6 +15,8 @@ let attempt = 0;
 let count = 1;
 var quiz;
 var next_page = false;
+var passingScore;
+var status;
 
 // TODO push the question into the available question array
 function setAvailableQuestions() {
@@ -158,13 +160,23 @@ function quizResult() {
     resultBox.querySelector(".percentage").innerHTML = percentage.toFixed(2) + "%";
     document.getElementById("scoreToDB").setAttribute("value", correctAnswers);
     resultBox.querySelector(".total-score").innerHTML = correctAnswers;
-    saveToDb();
+
+    passingScore = Math.round(quiz.length * 80 * 0.01);
+    status = getScoreStatus();
+
+    if (status == "passed") {
+        saveToDb();
+        swal("PASSED!", "Score successfully recorded!", "success");
+    } else {
+        saveToDb();
+        if (!swal("FAILED!", "Score successfully recorded!", "error")) {
+            window.location.reload();
+        }
+    }
 }
 
 function saveToDb() {
     //get 80% of the total number of questions
-    var passingScore = Math.round(quiz.length * 80 * 0.01);
-    var status = getScoreStatus(passingScore);
 
     $.post("../Math Page/php/connect-to-db.php", {
         lesson_name: lesson_name,
@@ -176,12 +188,14 @@ function saveToDb() {
 }
 
 //get score status if pass or fail
-function getScoreStatus(passingScore) {
+function getScoreStatus() {
     if (correctAnswers >= passingScore) {
         return "passed";
     }
     return "failed";
 }
+
+
 
 function start() {
     if (sessionStorage.getItem("ID") == 1) {
