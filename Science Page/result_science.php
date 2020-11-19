@@ -55,9 +55,8 @@
             <thead>
                 <tr>
                     <th>Lesson</th>
+                    <th>Topics</th>
                     <th>Scores</th>
-                    <th>Passing Score</th>
-                    <th>No_Items</th>
                     <th>Status</th>
                 </tr>
             </thead>
@@ -67,10 +66,9 @@
             // Populate Table
             while($row = $result->fetch_assoc()) {
                     echo '<tr>';
+                    echo '<td>' .$row['id']. '</td>';
                     echo '<td>' .$row['Lesson_Name']. '</td>';
-                    echo '<td>' .$row['Score']. '</td>';
-                    echo '<td>' .$row['Passing_Score']. '</td>';
-                    echo '<td>' .$row['No_Items']. '</td>';
+                    echo '<td>' .$row['Score']. '/' .$row['No_Items']. '</td>';
                     echo "<td><span class='label label-success' style='background-color: #332393;'>" .$row['Status']. '</td>';
             }
 
