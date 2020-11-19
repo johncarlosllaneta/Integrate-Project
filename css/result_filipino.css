@@ -19,11 +19,11 @@ body {
     margin-right: 1%;
     border-radius: 45px;
     border-width: 7px;
-    border-color: #E3C6A0;
-    background-color: #AD824B;
+    border-color: #9E6934;
+    background-color: #BB9059;
     border-style: solid;
     color: white;
-    width: 9%;
+    width: 150px;
     font-size: 30px;
     float: right;
     font-family: 'Segoe UI';
@@ -32,6 +32,12 @@ body {
     text-align: center; 
     
  }
+  .button:hover{
+    background-color:  #774e25;
+    -webkit-box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+  box-shadow: 9px 13px 17px -3px rgba(0, 0, 0, 0.65);
+  }
+ 
 .table-wrapper {
     width: 75%;
     background: #fff;

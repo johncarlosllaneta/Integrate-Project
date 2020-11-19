@@ -383,24 +383,6 @@ function createNextBtn2(i){
     myDiv.appendChild(button);
 }
 
-// function createNextBtn3(i){
-//     var myDiv = document.getElementById("marker");
-//     var button = document.createElement('BUTTON'); 
-//     var text = document.createTextNode("Next");
-//     button.appendChild(text);
-//     if (i == 1) {
-//         button.onclick = nextUrl2_1;
-//     } else if (i == 2) {
-//         button.onclick = nextUrl2_2;
-//     }
-//     else if (i == 3) {
-//         button.onclick = nextUrl2_3;
-//     }
-//     else if (i == 4) {
-//         button.onclick = nextUrl2_4;
-//     }
-//     myDiv.appendChild(button);
-// }
 function createNextBtn4(i){
     var myDiv = document.getElementById("marker");          
     var button = document.createElement('BUTTON');  

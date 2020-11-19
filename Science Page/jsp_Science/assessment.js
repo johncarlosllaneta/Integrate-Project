@@ -15,7 +15,7 @@ let attempt = 0;
 let count = 1;
 var quiz;
 var next_page = false;
- //get 80% of the total number of questions
+//get 80% of the total number of questions
 var passingScore;
 var status;
 
@@ -152,7 +152,6 @@ function quizOver() {
     // show result box
     resultBox.classList.remove("hide");
     quizResult();
-
 }
 
 function quizResult() {
@@ -168,24 +167,20 @@ function quizResult() {
 
     passingScore = Math.round(quiz.length * 80 * 0.01);
     status = getScoreStatus();
-    
-    if(status == "passed"){
+
+    if (status == "passed") {
         saveToDb();
-        alert("Score recorded to Database");
-    }else{
+        swal("PASSED!", "Score successfully recorded!", "success");
+    } else {
         saveToDb();
-       if(!alert("BOBO amp! Recorded parin")){
-        window.location.reload();
-       }
+        if (!swal("FAILED!", "Score successfully recorded!", "error")) {
+            window.location.reload();
+        }
     }
 }
 
-
-
-
 //Ajax save score and other data to database.
 function saveToDb() {
-
     $.post("php_Science/connect-to-db.php", {
         lesson_name: lesson_name,
         score: correctAnswers,

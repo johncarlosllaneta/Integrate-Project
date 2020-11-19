@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php session_start(); ?>
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,22 +12,23 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<link rel="shortcut icon" href="../images/logo.png" type="image/png">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-<link rel="stylesheet" href="../css/result_math.css">
+<link rel="shortcut icon" href="../images/logo.png" type="image/png">
+<link rel="stylesheet" href="../css/result_filipino.css">
 
 
 </head>
 <body>
-    <a href="../html/subject_result.html" class="button">BACK</a>
+<a href="../html/subject_result.php">
+            <button class="button">BACK</button>
+        </a>
     <div class="table-wrapper">
 
        
 
         <div class="table-title">
             <div class="row">
-                <div><p>Math Results</p></div>
+                <div><p>Filipino Results</p></div>
               
 
               
@@ -50,62 +52,62 @@
                     <td>1</td>
                     <td>Adding Two numbers</td>
                     <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
+                    <td><span class="label label-success" style="background-color: #AD824B;">Passed</span></td>
 
                 </tr><tr >
                     <td>1</td>
                     <td>Adding Two numbers</td>
                     <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
+                    <td><span class="label label-success" style="background-color: #AD824B;">Passed</span></td>
 
                 </tr><tr >
                     <td>1</td>
                     <td>Adding Two numbers</td>
                     <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
+                    <td><span class="label label-success" style="background-color: #AD824B;">Passed</span></td>
 
                 </tr><tr >
                     <td>1</td>
                     <td>Adding Two numbers</td>
                     <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
+                    <td><span class="label label-success" style="background-color: #AD824B;">Passed</span></td>
 
                 </tr><tr >
                     <td>1</td>
                     <td>Adding Two numbers</td>
                     <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
+                    <td><span class="label label-success" style="background-color: #AD824B;">Passed</span></td>
 
                 </tr><tr >
                     <td>1</td>
                     <td>Adding Two numbers</td>
                     <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
+                    <td><span class="label label-success" style="background-color: #AD824B;">Passed</span></td>
 
                 </tr><tr >
                     <td>1</td>
                     <td>Adding Two numbers</td>
                     <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
+                    <td><span class="label label-success" style="background-color: #AD824B;">Passed</span></td>
 
                 </tr><tr >
                     <td>1</td>
                     <td>Adding Two numbers</td>
                     <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
+                    <td><span class="label label-success" style="background-color: #AD824B;">Passed</span></td>
 
                 </tr><tr >
                     <td>1</td>
                     <td>Adding Two numbers</td>
                     <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
+                    <td><span class="label label-success" style="background-color: #AD824B;">Passed</span></td>
 
                 </tr>
 
             </tbody>
         </table>
     </div> 
-<script src="javascript.js"></script>
+<script src="../javascript.js"></script>
     
 </body>
 </html>                       

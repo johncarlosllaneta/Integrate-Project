@@ -154,11 +154,11 @@ function createAssessmentBtn() {
   var style = document.createElement("style");
   style.type = "text/css";
   style.innerHTML =
-    ".createAssessmentBtn{ position: absolute; top:85%;" +
-    "left: 45%;" +
+    ".createAssessmentBtn{ position: absolute; top:91.5%;" +
+    "left: 45%; font-size: 20px; height: auto;" +
     "background-color: #613870; color: black;" +
     "border-color: white;height: 50px; text-align: center" +
-    "width: 200px;border-radius: 50px; border-width: thin" +
+    "width: 200px; border-radius: 50px; border-width: thin" +
     "margin: auto; padding: 5px 15px 15px 15px; color:white;}";
   document.head.appendChild(style);
   button.className = "createAssessmentBtn";
@@ -173,72 +173,58 @@ function createAssessmentBtn() {
 //CREATE NEXT BUTTON
 function createNextBtn1(i) {
   var myDiv = document.getElementById("marker");
-  var button_sci = document.createElement("button-sci");
+  var button = document.createElement("BUTTON");
   var text = document.createTextNode("Next");
 
-  // button style
-  var style = document.createElement("style");
-  style.type = "text/css";
-  style.innerHTML =
-    ".createNextBtn1{ position: absolute; top:92%;" +
-    "left: 45%;" +
-    "background-color: #613870; color: black;" +
-    "border-color: white;height: 50px; text-align: center" +
-    "width: 200px;border-radius: 50px; border-width: thin" +
-    "margin: auto; padding: 5px 15px 15px 15px; color:white;}";
-  document.head.appendChild(style);
-  button_sci.className = "createNextBtn1";
-
-  button_sci.appendChild(text);
+  button.appendChild(text);
   if (i == 1) {
-    button_sci.onclick = nextUrl1_1;
+    button.onclick = nextUrl1_1;
   }
-  myDiv.appendChild(button_sci);
+  myDiv.appendChild(button);
 }
 
 function createNextBtn2(i) {
   var myDiv = document.getElementById("marker");
-  var button_sci = document.createElement("button-sci");
+  var button = document.createElement("BUTTON");
   var text = document.createTextNode("Next");
-  button_sci.appendChild(text);
+  button.appendChild(text);
   if (i == 1) {
-    button_sci.onclick = nextUrl2_1;
+    button.onclick = nextUrl2_1;
   }
-  myDiv.appendChild(button_sci);
+  myDiv.appendChild(button);
 }
 
 //3
 
 function createNextBtn4(i) {
   var myDiv = document.getElementById("marker");
-  var button_sci = document.createElement("button-sci");
+  var button = document.createElement("BUTTON");
   var text = document.createTextNode("Next");
-  button_sci.appendChild(text);
+  button.appendChild(text);
   if (i == 1) {
-    button_sci.onclick = nextUrl4_1;
+    button.onclick = nextUrl4_1;
   } else if (i == 2) {
-    button_sci.onclick = nextUrl4_2;
+    button.onclick = nextUrl4_2;
   } else if (i == 3) {
-    button_sci.onclick = nextUrl4_3;
+    button.onclick = nextUrl4_3;
   }
-  myDiv.appendChild(button_sci);
+  myDiv.appendChild(button);
 }
 
 function createNextBtn5(i) {
   var myDiv = document.getElementById("marker");
-  t;
-  var button_sci = document.createElement("button-sci");
+  var button = document.createElement("BUTTON");
   var text = document.createTextNode("Next");
 
-  button_sci.appendChild(text);
+  button.appendChild(text);
   if (i == 1) {
-    button_sci.onclick = nextUrl5_1;
+    button.onclick = nextUrl5_1;
   } else if (i == 2) {
-    button_sci.onclick = nextUrl5_2;
+    button.onclick = nextUrl5_2;
   } else if (i == 3) {
-    button_sci.onclick = nextUrl5_3;
+    button.onclick = nextUrl5_3;
   }
-  myDiv.appendChild(button_sci);
+  myDiv.appendChild(button);
 }
 
 //LINKS

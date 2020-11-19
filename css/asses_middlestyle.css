@@ -60,14 +60,20 @@ body {
 }
 
 .btn {
-    padding: 15px 45px;
     background-color: #009688;
+    font-family: 'Segoe UI,', sans-serif;
     color: white;
+    margin: auto;
+    font-weight: bold;
     border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
+    padding: 1px 30px;
+    text-align: center;
+    text-decoration: none;
     display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 34px;
+    border-style: solid;
 }
 
 .quiz-box .question-number,

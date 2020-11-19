@@ -24,20 +24,30 @@ $percentage = ($done / $total) * 100;
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Progress English</title>
+    <title>Progress Math</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../css/progress_math.css">
 </head>
-
 <body>
 
-    <h1>Progress: <?= $done ?> / <?= $total ?> </h1>
-    <h3>Percentage: <?= $percentage ?> % </h3>
+    <div class="progressbar-container">
+    <!-- <h1>Progress: <?= $done ?> / <?= $total ?> = </h1> -->
+    <h1>PROGRESS: </h1>
+
+    <div class="meter animate">
+            <span style="width:<?=$percentage?>%">&nbsp;&nbsp;&nbsp;<?=$percentage?>%<span></span></span>
+        </div>
+
+    </div>
+   
 
     <div class="container">
-        <a href="../..//html/subject_progress.html">
+    <br>
+    <a href="../../html/subject_progress.html">
             <button class="btn_back">BACK</button>
         </a>
+        <h1>Progress: <?= $done ?> / <?= $total ?> </h1>
+    <h3>Percentage: <?= $percentage ?> % </h3>
 
     <?php for($i = 1; $i <= $total; $i++) { ?>
 
@@ -52,7 +62,7 @@ $percentage = ($done / $total) * 100;
 
         <div class="circle<?=$i?>" onclick="showID(<?=$i?>)">
             <!-- make assets for math circ  -->
-            <img src="../../images/english_circ<?=$i?>.svg" alt="" class="circle" id="circle">
+            <img src="../../images/circ<?=$i?>.svg" alt="" class="circle" id="circle">
         </div>
 
     <!-- locked -->
@@ -72,7 +82,8 @@ $percentage = ($done / $total) * 100;
 </body>
 
 </html>
-    <script src="../jsp_Math/progress.js"></script>
+    <script src="../../jsp_Math/progress.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
 </body>
 
 </html>
