@@ -19,7 +19,9 @@
 
 </head>
 <body>
-    <a href="../html/subject_result.php" class="button">BACK</a>
+<a href="../html/subject_result.php">
+            <button class="button">BACK</button>
+        </a>
     <div class="table-wrapper">
 
        
