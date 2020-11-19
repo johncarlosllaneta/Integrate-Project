@@ -213,7 +213,6 @@ function createNextBtn4(i) {
 
 function createNextBtn5(i) {
   var myDiv = document.getElementById("marker");
-  t;
   var button = document.createElement("BUTTON");
   var text = document.createTextNode("Next");
 
