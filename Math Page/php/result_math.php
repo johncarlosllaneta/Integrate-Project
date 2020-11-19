@@ -23,12 +23,12 @@
 
 <body>
     <?php
-    echo $_SESSION['User'];
+    echo $_SESSION['id'];
         $servername = "localhost";
         $username = "root";
         $password = "";
         $dbname = "integratives";
-        $user_id = $_SESSION['User'];
+        $user_id = $_SESSION['id'];
 
         $conn = new mysqli($servername, $username, $password, $dbname); // Create connection
         if ($conn->connect_error) {     // Check connection
