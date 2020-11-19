@@ -24,7 +24,7 @@ $percentage = ($done / $total) * 100;
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Progress English</title>
+    <title>Progress Math</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel="stylesheet" href="../../css/progress_math.css">
 </head>
@@ -72,7 +72,7 @@ $percentage = ($done / $total) * 100;
 </body>
 
 </html>
-    <script src="../jsp_Math/progress.js"></script>
+    <script src="../../jsp_Math/progress.js"></script>
 </body>
 
 </html>

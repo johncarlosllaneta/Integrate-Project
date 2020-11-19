@@ -48,55 +48,49 @@
                
                 <tr >
                     <td>1</td>
-                    <td>Adding Two numbers</td>
+                    <td>Counting Numbers</td>
                     <td>5/10</td>
                     <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
 
                 </tr><tr >
-                    <td>1</td>
-                    <td>Adding Two numbers</td>
+                    <td>2</td>
+                    <td>Addition</td>
                     <td>5/10</td>
                     <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
 
                 </tr><tr >
-                    <td>1</td>
-                    <td>Adding Two numbers</td>
+                    <td>3</td>
+                    <td>Subtraction</td>
                     <td>5/10</td>
                     <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
 
                 </tr><tr >
-                    <td>1</td>
-                    <td>Adding Two numbers</td>
+                    <td>4</td>
+                    <td>Fraction</td>
                     <td>5/10</td>
                     <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
 
                 </tr><tr >
-                    <td>1</td>
-                    <td>Adding Two numbers</td>
+                    <td>5</td>
+                    <td>Money</td>
                     <td>5/10</td>
                     <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
 
                 </tr><tr >
-                    <td>1</td>
-                    <td>Adding Two numbers</td>
+                    <td>6</td>
+                    <td>Shapes</td>
                     <td>5/10</td>
                     <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
 
                 </tr><tr >
-                    <td>1</td>
-                    <td>Adding Two numbers</td>
+                    <td>7</td>
+                    <td>Time</td>
                     <td>5/10</td>
                     <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
 
                 </tr><tr >
-                    <td>1</td>
-                    <td>Adding Two numbers</td>
-                    <td>5/10</td>
-                    <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
-
-                </tr><tr >
-                    <td>1</td>
-                    <td>Adding Two numbers</td>
+                    <td>8</td>
+                    <td>Measurement</td>
                     <td>5/10</td>
                     <td><span class="label label-success" style="background-color: #7AB354;">Passed</span></td>
 
@@ -106,6 +100,8 @@
         </table>
     </div> 
 <script src="javascript.js"></script>
+<script src="../Math Page/jsp_Math/progress.js"></script>
+
     
 </body>
 </html>                       
